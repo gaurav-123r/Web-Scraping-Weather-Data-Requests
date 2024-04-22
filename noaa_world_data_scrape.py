@@ -7,9 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1uAYmv18kpUsOm-STzhB3BWzRxEMpVpAR
 """
 
-import requests # type: ignore
+import requests
 import csv
-import matplotlib.pyplot as plt # type: ignore
+import matplotlib.pyplot as plt
 
 class NoaaWorldDatascraper:
     def __init__(self, location_id, start_date, end_date, token):
